@@ -1,0 +1,33 @@
+#app{
+    width:500px;
+    height:500px;
+    
+}
+
+.flex-container{
+    display: flex;
+    
+}
+
+.single-square{
+    flex: 1 0 0;
+    aspect-ratio: 1 / 1;
+    background-color: green;
+}
+
+.red{
+    background-color: red;
+}
+
+.black{
+background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.fade{
+    background-color: black;
+   /* opacity: 0.5; */
+}
